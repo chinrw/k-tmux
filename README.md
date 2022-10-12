@@ -2,7 +2,7 @@
 
 # Introduction
 
-A tmux conf, which can work with [k-vim](https://github.com/wklken/k-vim)
+A tmux conf, which can work with [k-vim](https://github.com/chinrw/k-vim)
 
 简要说明 [k-tmux](http://www.wklken.me/posts/2015/08/06/linux-tmux.html)
 
@@ -23,7 +23,7 @@ cp ~/.tmux.conf ~/.tmux.conf_bak
 
 2. just get the file
 
-curl https://raw.githubusercontent.com/wklken/k-tmux/master/tmux.conf > ~/.tmux.conf
+curl https://raw.githubusercontent.com/chinrw/k-tmux/master/tmux.conf > ~/.tmux.conf
 
 3. Done, enjoy it
 ```
@@ -31,7 +31,7 @@ curl https://raw.githubusercontent.com/wklken/k-tmux/master/tmux.conf > ~/.tmux.
 Use github
 
 ```
-git clone https://github.com/wklken/k-tmux.git
+git clone https://github.com/chinrw/k-tmux.git
 ln -s $PWD/k-tmux/tmux.conf ~/.tmux.conf
 ```
 
