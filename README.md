@@ -25,7 +25,17 @@ cp ~/.tmux.conf ~/.tmux.conf_bak
 
 curl https://raw.githubusercontent.com/chinrw/k-tmux/master/tmux.conf > ~/.tmux.conf
 
-3. Done, enjoy it
+3. TPM install
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
+4. tmux-mem-cpu-load (needs cmake)
+https://github.com/thewtex/tmux-mem-cpu-load
+cd <source dir>
+cmake .
+make
+su -
+make install
+
 ```
 
 Use github
