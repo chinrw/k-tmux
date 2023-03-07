@@ -1,5 +1,5 @@
 # k-tmux
-
+submodule
 # Introduction
 
 A tmux conf, which can work with [k-vim](https://github.com/chinrw/k-vim)
